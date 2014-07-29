@@ -43,19 +43,19 @@ Source Code for SubBot can be found on Github at https://github.com/paradox460/s
 Managing SubBot
 ------
 After inviting SubBot into your channel, configuring SubBot is simple. To add a new channel to the list that SubBot should announce, use:
-	```
-	\subreddit add <subreddit>
-	```
+```
+\subreddit add <subreddit>
+```
 In the above command, the back-slash tells SubBot that this is a command to detect. The subreddit you input should just be the name, without /r/.
 To remove a subreddit you added, use:
-	```
-	\subreddit del <subreddit>
-	```
+```
+\subreddit del <subreddit>
+```
  Note that the subreddit you remove should be spelled exactly as it is called. This command is case-sensitive.
 A list of subreddits currently being announced can be obtained with:
-	```
-	\subreddit list 
-	```
+```
+\subreddit list 
+```
 	
 After configuring SubBot, new announcements should start appearing. These announcements looks somewhat similar to this:
 ```
@@ -63,31 +63,55 @@ After configuring SubBot, new announcements should start appearing. These announ
 ```
 
 Each announcement contains the subreddit it comes from, the user who posted it, the name of the post, a link to the post, and finally the type of post.
+
 If you wish to make the bot leave the current channel, use:
-	\part
+```
+\part
+```
 
 Configuring SubBot
+------
 If you are hosting your own SubBot instance, you can also configure the bot’s prefix, bot name, channels to join, as well as users allowed to manage the bot. SubBot’s configuration can be found in conf/config.yml on your server’s filesystem.
 Note that hosting your own SubBot instance requires a Reddit API account, as well as permission from your network to operate the bot.
-Fun Fact: SubBot was written in Ruby.MemeBot
+Fun Fact: SubBot was written in Ruby.
+
+MemeBot
+=======
 A generator for memes.
+
 MemeBot allows you to create a “meme” within IRC. The text used in the meme is inputed as a command, and the results are returned as a link to imgur.
+
 Source Code for MemeBot can be found on Github, at https://github.com/paradox460/memebot
+
 Creating Memes
+-------
 After inviting MemeBot into your channel, you can start generating Memes by using:
-	!meme [m:MemeName] <Top Text>;<Bottom Text>
+```
+!meme [m:MemeName] <Top Text>;<Bottom Text>
+```
 In the above command, you pick your meme, then specify the top and bottom text, separated by a colon.
 After a few seconds, your meme will be returned, similar to this:
-	User: http://i.imgur.com/gTvYMDq.jpg
+```
+User: http://i.imgur.com/gTvYMDq.jpg
+```
 You can also have MemeBot choose the meme for you, using:
-	!meme <Top Text>;<Bottom Text>
+```
+!meme <Top Text>;<Bottom Text>
+```
 This will return a meme using your text, but with a randomly picked background.
 To list all the memes available to use for generating one, use:
-	!memes
-Fun Fact: MemeBot was also written in Ruby, in “a single nights bathtub coding session”.ImageBot
+```
+!memes
+```
+Fun Fact: MemeBot was also written in Ruby, in “a single nights bathtub coding session”.
+
+ImageBot
+=======
 A bot for getting random subreddit images.
 ImageBot allows you to get an image from a subreddit’s posts. This is great for looking at interesting content.
+
 Retrieving an Image
+-------
 After inviting ImageBot into your channel, you can get an image from a subreddit by using:
 	!image <subreddit>
 
