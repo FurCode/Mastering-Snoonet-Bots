@@ -177,9 +177,32 @@ If you have received a memo, you can read it by using:
 Once you have read the message, the sender will be notified.
 Fun Fact: MemoServ is part of Anope’s IRC services.
 
+SnooStat
+=======
+A bot that generates network, channel, and user statistics at https://stats.snoonet.org/. Maintained by flotwig.
+
+Getting SnooStat in your channel
+-------
+SnooStat is a network service, and it can be added to channels by asking an admin in #help.
+
+Using SnooStat in your channel
+-------
+SnooStat has one channel command:
+```
+!stats
+```
+
+Which will show you your stats in the channel:
+```
+-SnooStat- Channel stats for flotwig on #snoonet
+-SnooStat- letters: 2717, words: 451, lines: 89, smileys: 3, actions: 1
+```
+
 Statistics
 =======
 A bot that generates channel statistics.
+
+Source code can be found at: https://github.com/flotwig/StatsBot
 
 The Statistics bot can be used to generate extended statistics information on your channel.
 Adding Statistics
@@ -196,14 +219,12 @@ If your channel is already being tracked by the Statistics bot, you can obtain y
 !stats
 ```
 
-This will return the latest statistical information for your user on the current channel. The response looks similar to:
+in the channel. This will return the latest statistical information for your user on the current channel. The response looks similar to:
 ```
-Channel stats for user on #snoonet
-letters: 3743, words: 599, lines: 68, smileys: 23, actions: 18
 Stats for this channel can be found at https://chanstats.snoonet.org/%23snoonet.html
 ```
 
-Depending on your IRC client, this message may appear from the bot itself or as a notice.
+This will appear as a notice from the bot, not in the channel.
 
 Web Statistics
 -------
@@ -218,6 +239,8 @@ Fun Fact: flotwig created this bot.
 ##Random
 Join a random channel on the Snoonet Network.
 
+Source code can be found at: https://gist.github.com/flotwig/601049c0b8710e99b0fd
+
 The ##random channel on Snoonet can be used to discover new channels offered on the network. This is great for growing a new community.
 
 Joining a Random Channel
@@ -228,4 +251,4 @@ To join a random channel, use:
 ```
 When you join the channel, the bot will send you to another random channel instead, and you will be removed from ##random.
 
-Fun Fact: flotwig also suggested this bot.
+Fun Fact: flotwig also created this bot.
