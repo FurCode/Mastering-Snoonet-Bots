@@ -1,7 +1,10 @@
 Changelog (for 1st Edition)
-======
+------
 1/18/14
-First revision of “Mastering Snoonet Bots”Preamble
+First revision of “Mastering Snoonet Bots”
+
+Preamble
+------
 In this eBook, you will learn the basics of operating various bots available in the Snoonet network. This is also useful as a reference book for operating those bots in the future.
 
 If this is your first time using a bot on Snoonet, we recommend trying out the exercises in a Private Message to the bot, or an empty channel, rather than using it in a busy channel, as you may cause disturbance and trigger spam protection.
@@ -9,13 +12,13 @@ If this is your first time using a bot on Snoonet, we recommend trying out the e
 Many of the bots mentioned in this book have their source code publicly available. While the author of this book has made sure that the sources for each bot are accurate, the source code may move or change, in which case links and source seen in this book may not be accurate.
 
 Introduction
+------
 Welcome to Mastering Snoonet Bots!
 
 Most of the lessons you will be using in this book have been made for use in an IRC client. If you do not have an IRC client handy, we recommend you get one set up before continuing with this book. In this book, most bots will use the prefix mentioned in each page for command detection, however other methods may also be used to detect commands, such as “Bot Name, <command>” and no prefix in PMs. See the source code of each bot for more on command prefixes. We assume each bot uses their default call prefix for the remainder of this book.
 
-
-
 Conventions used in this Book
+------
 Within this book, we will use the following features to define different contexts within the text.
 
 		Monospaced Text on a green or blue background denote commands to use in an actual IRC channel or PM.
@@ -23,14 +26,22 @@ Within this book, we will use the following features to define different context
 		Orange Semibold Text denotes an user, if one is used in a command.
 		Blue Italic Text denotes a constant that can be used in a command, or a location on your filesystem.
 		Purple Monospaced Text denotes a response from a bot.
+		
+
 Book Organization
-The book is organized by more popular bots first, then less popular bots and their administrative tools later. Some of the lessons can only be performed by an user with the right permissions, in which case you might have to query an Operator in order to see if such restrictions apply to you.SubBot
+------
+The book is organized by more popular bots first, then less popular bots and their administrative tools later. Some of the lessons can only be performed by an user with the right permissions, in which case you might have to query an Operator in order to see if such restrictions apply to you.
+
+SubBot
+======
 A bot that announces new Reddit posts.
 
+SubBot allows your channel to integrate with the Reddit community, by announcing new posts from any subreddit within your channel. The announcements are in real time, and works great for Reddit communities connecting with their IRC counterparts
 
-SubBot allows your channel to integrate with the Reddit community, by announcing new posts from any subreddit within your channel. The announcements are in real time, and works great for Reddit communities connecting with their IRC counterparts.
 Source Code for SubBot can be found on Github at https://github.com/paradox460/subbot
+
 Managing SubBot
+------
 After inviting SubBot into your channel, configuring SubBot is simple. To add a new channel to the list that SubBot should announce, use:
 	\subreddit add <subreddit>
 In the above command, the back-slash tells SubBot that this is a command to detect. The subreddit you input should just be the name, without /r/.
@@ -73,17 +84,3 @@ After inviting ImageBot into your channel, you can get an image from a subreddit
 	!image <subreddit>
 
 Fun Fact: ImageBot is based on the Cinch framework.
-Mastering Snoonet Bots
-2
-3
-2
-2
-Mastering        Snoonet Bots 
-Learn about SubBot, MemeBot, and other bots in one book!
-1st Edition
-Edited by, and designed by rod156
-FurCode Press
-Features:
-Extensive Preamble
-Source Code
-Fun Facts
