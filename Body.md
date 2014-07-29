@@ -43,16 +43,24 @@ Source Code for SubBot can be found on Github at https://github.com/paradox460/s
 Managing SubBot
 ------
 After inviting SubBot into your channel, configuring SubBot is simple. To add a new channel to the list that SubBot should announce, use:
+	```
 	\subreddit add <subreddit>
+	```
 In the above command, the back-slash tells SubBot that this is a command to detect. The subreddit you input should just be the name, without /r/.
 To remove a subreddit you added, use:
+	```
 	\subreddit del <subreddit>
+	```
  Note that the subreddit you remove should be spelled exactly as it is called. This command is case-sensitive.
 A list of subreddits currently being announced can be obtained with:
+	```
 	\subreddit list 
-
+	```
+	
 After configuring SubBot, new announcements should start appearing. These announcements looks somewhat similar to this:
+```
 /r/all: <purebishop> My Test Post ( http://redd.it/2c1vhj ) [ self.all ]
+```
 
 Each announcement contains the subreddit it comes from, the user who posted it, the name of the post, a link to the post, and finally the type of post.
 If you wish to make the bot leave the current channel, use:
