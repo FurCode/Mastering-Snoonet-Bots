@@ -177,6 +177,27 @@ If you have received a memo, you can read it by using:
 Once you have read the message, the sender will be notified.
 Fun Fact: MemoServ is part of Anope’s IRC services.
 
+SnooStat
+=======
+A bot that generates network, channel, and user statistics at https://stats.snoonet.org/. Maintained by flotwig.
+
+Getting SnooStat in your channel
+-------
+SnooStat is a network service, and it can be added to channels by asking an admin in #help.
+
+Using SnooStat in your channel
+-------
+SnooStat has one channel command:
+```
+!stats
+```
+
+Which will show you your stats in the channel:
+```
+-SnooStat- Channel stats for flotwig on #snoonet
+-SnooStat- letters: 2717, words: 451, lines: 89, smileys: 3, actions: 1
+```
+
 Statistics
 =======
 A bot that generates channel statistics.
