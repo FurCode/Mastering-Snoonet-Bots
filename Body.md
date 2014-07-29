@@ -181,6 +181,8 @@ Statistics
 =======
 A bot that generates channel statistics.
 
+Source code can be found at: https://github.com/flotwig/StatsBot
+
 The Statistics bot can be used to generate extended statistics information on your channel.
 Adding Statistics
 -------
