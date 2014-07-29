@@ -196,14 +196,12 @@ If your channel is already being tracked by the Statistics bot, you can obtain y
 !stats
 ```
 
-This will return the latest statistical information for your user on the current channel. The response looks similar to:
+in the channel. This will return the latest statistical information for your user on the current channel. The response looks similar to:
 ```
-Channel stats for user on #snoonet
-letters: 3743, words: 599, lines: 68, smileys: 23, actions: 18
 Stats for this channel can be found at https://chanstats.snoonet.org/%23snoonet.html
 ```
 
-Depending on your IRC client, this message may appear from the bot itself or as a notice.
+This will appear as a notice from the bot, not in the channel.
 
 Web Statistics
 -------
