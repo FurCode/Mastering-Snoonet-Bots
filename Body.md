@@ -182,7 +182,6 @@ Statistics
 A bot that generates channel statistics.
 
 The Statistics bot can be used to generate extended statistics information on your channel.
-
 Adding Statistics
 -------
 To track your channel, invite the bot by using:
