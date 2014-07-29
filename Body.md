@@ -239,6 +239,8 @@ Fun Fact: flotwig created this bot.
 ##Random
 Join a random channel on the Snoonet Network.
 
+Source code can be found at: https://gist.github.com/flotwig/601049c0b8710e99b0fd
+
 The ##random channel on Snoonet can be used to discover new channels offered on the network. This is great for growing a new community.
 
 Joining a Random Channel
@@ -249,4 +251,4 @@ To join a random channel, use:
 ```
 When you join the channel, the bot will send you to another random channel instead, and you will be removed from ##random.
 
-Fun Fact: flotwig also suggested this bot.
+Fun Fact: flotwig also created this bot.
