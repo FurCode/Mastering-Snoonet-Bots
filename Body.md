@@ -135,28 +135,52 @@ If you wish for the comic not to be uploaded (such as in a private channel), you
 To generate a comic from a Reddit comment thread, use:
 	!comicreddit <url>
 
-Fun Fact: Weedbot uses the PIL library to generate comics.MemoServ
+Fun Fact: Weedbot uses the PIL library to generate comics.
+
+MemoServ
+=======
 A system to send messages to other users.
+
 MemoServ can be used to send memos to registered users within the Snoonet network. This is great for leaving notes to offline users, or reaching an user when a Private Message is not appropriate.
+
 Source Code can be found at https://github.com/anope/anope/
+
 Getting Help
+-------
 MemoServ has a built in Help system; you can trigger it by using:
-	/msg MemoServ help
+```
+/msg MemoServ help
+```
 To get more help on a specific command, use:
-	/msg MemoServ help <command>
+```
+/msg MemoServ help <command>
+```
 Sending a Memo
+-------
 Using MemoServ to send a memo is easy, simply use:
-	/msg MemoServ send <user> <message>
+```
+/msg MemoServ send <user> <message>
+```
 The memo you send will be stored for the user. When the user comes back online, they will be notified that they have a memo with a message similar to this:
-	You have 1 new memo.
-	To read them, type /msg MemoServ READ NEW
+```
+You have 1 new memo.
+To read them, type /msg MemoServ READ NEW
+```
 The user will also be notified via their registered NickServ email.
+
 Reading a Memo
+-------
 If you have received a memo, you can read it by using:
-	/msg MemoServ read new
+```
+/msg MemoServ read new
+```
 Once you have read the message, the sender will be notified.
-Fun Fact: MemoServ is part of Anope’s IRC services.Statistics
+Fun Fact: MemoServ is part of Anope’s IRC services.
+
+Statistics
+=======
 A bot that generates channel statistics.
+
 The Statistics bot can be used to generate extended statistics information on your channel.
 
 Adding Statistics
@@ -193,8 +217,8 @@ You can also retrieve a summary page for a specific channel within IRC by using:
 Fun Fact: flotwig created this bot.
 
 ##Random
-========
 Join a random channel on the Snoonet Network.
+
 The ##random channel on Snoonet can be used to discover new channels offered on the network. This is great for growing a new community.
 
 Joining a Random Channel
