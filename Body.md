@@ -143,7 +143,7 @@ A system to send messages to other users.
 
 MemoServ can be used to send memos to registered users within the Snoonet network. This is great for leaving notes to offline users, or reaching an user when a Private Message is not appropriate.
 
-Source Code can be found at https://github.com/anope/anope/
+Source Code can be found at https://github.com/atheme/atheme
 
 Getting Help
 -------
@@ -175,7 +175,7 @@ If you have received a memo, you can read it by using:
 /msg MemoServ read new
 ```
 Once you have read the message, the sender will be notified.
-Fun Fact: MemoServ is part of Anope’s IRC services.
+Fun Fact: MemoServ is part of Atheme’s IRC services.
 
 SnooStat
 =======
