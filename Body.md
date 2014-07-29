@@ -113,6 +113,7 @@ ImageBot allows you to get an image from a subreddit’s posts. This is great fo
 Retrieving an Image
 -------
 After inviting ImageBot into your channel, you can get an image from a subreddit by using:
-	!image <subreddit>
-
+```
+!image <subreddit>
+```
 Fun Fact: ImageBot is based on the Cinch framework.
