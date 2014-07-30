@@ -252,3 +252,43 @@ To join a random channel, use:
 When you join the channel, the bot will send you to another random channel instead, and you will be removed from ##random.
 
 Fun Fact: flotwig also created this bot.
+
+Flags
+======
+The part of ChanServ used to promote users.
+
+Managing flags is an important role for any operator, and helps to develop your IRC community.
+
+Adding Flags to an user
+-------
+After registering your channel, to promote an user on your channel, use:
+```
+!flags <user> <flags>
+```
+There are only three values that can be used for flags, [VOP], [HOP], and [AOP]. You will receive a response similar to the following:
+```
+Operator set flags +AHV on User
+```
+Removing Flags from an user
+-------
+If you wish to demote an user, there are multiple methods. To remove every flag from an user, use:
+```
+!flags <flags> -*
+```
+in the channel. You will receive a response similar to:
+Operator set flags -AHV on User
+To remove only specific flags from an user, use:
+```
+!flags <flags> -<flags>
+```
+Note that in this command, the flags notation are the ones used by ChanServ.
+
+Listing Flags
+-------
+If you wish to see a list of flags, use:
+```
+!flags
+```
+ChanServ will send a notice with the list of flags for every user (if an Operator), or just you (if voiced or a half-op).
+
+Fun Fact: These are all shortcut commands, they can be also executed by messaging ChanServ.
