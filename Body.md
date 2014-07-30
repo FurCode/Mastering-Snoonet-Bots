@@ -32,6 +32,29 @@ Book Organization
 ------
 The book is organized by more popular bots first, then less popular bots and their administrative tools later. Some of the lessons can only be performed by an user with the right permissions, in which case you might have to query an Operator in order to see if such restrictions apply to you.
 
+Getting Started
+======
+Registering your account
+------
+If this is your first time on the Snoonet network, we recommend you register your account, to make sure that your nick is reserved. Some of the bots in this book also require registering your nick.
+If your current nick is unregistered, you can claim it and register it by using:
+```
+/msg NickServ register <password> <email>
+```
+Pick an easy to remember password, as well as a valid email.
+
+The email you choose will be used to verify that you are a human, and to finish the registration of your nick. This email will also be used for receiving MemoServ messages.
+
+You will receive the following response:
+```
+An email containing nickname activation instructions has been sent to user@example.com.
+If you do not complete registration within one day, your nickname will expire.
+<nick> is now registered to user@example.com, with the password <password>. 
+```
+
+You must now check the email used for registration in order to continue.
+Once you receive your verification email, use the command specified in it to finish the registration.
+
 SubBot
 ======
 A bot that announces new Reddit posts.
